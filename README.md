@@ -2,7 +2,7 @@
 
 ### Spotify
 
-Writes playing song and artist name
+Writes currently playing song and artist name on spotify
 
 
 ### Task
