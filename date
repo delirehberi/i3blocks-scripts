@@ -1,0 +1,3 @@
+#!/bin/bash
+date +"%a %F %R"
+exit 0

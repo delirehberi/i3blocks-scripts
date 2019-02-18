@@ -1,0 +1,3 @@
+#!/bin/bash
+nvidia-settings -q gpucoretemp|head -n2|xargs|sed -e "s/Attribute GPUCoreTemp (debian:0.0)\: //g"|tr '.' ' '|awk '{print "GPU: "$0"°C"}'
+exit 0
